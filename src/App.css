@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #f4f4f4);
+}
+/* Main Heading */
+.txt-color {
+  background: linear-gradient(to right, #706ee9, #fb4a87, #fb4a87);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.txt-clr1 {
+  background: linear-gradient(to right, #7e4ca6, #eb417d, #fb4a87);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-grdntclr1 {
+  background-image: linear-gradient(to top, #fe7e6b, #f04a85);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Text Colors */
+.txt-color1 {
+  color: #fe4789;
+}
+.txt-color2 {
+  color: #f8a76c;
+}
+.txt-color3 {
+  color: #7f7f7f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading1 {
+  font-size: 3.5rem;
+}
+.heading2 {
+  font-size: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Letter-spacing */
+.ls1 {
+  letter-spacing: 0.1rem;
+}
+.ls2 {
+  letter-spacing: 0.1rem;
+}
+
+/* Background Colors */
+.bg-color1 {
+  background-color: #fe4789;
+}
+.bg-color2 {
+  background-color: #f8a76c;
+}
+.bg-color3 {
+  background-color: #1c2128;
+}
+.bg-color4 {
+  background-color: #e8ff5a;
+}
+
+/*  Bg-Color */
+
+.bg-training {
+  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #e4e4e4);
+}
+
+.bg-seminar {
+  background-color: black;
+  border: 4px solid #fe4789;
+}
+
+/* border-radius */
+.b1-radius {
+  border-radius: 1rem;
+}
+
+/* Image Responsive */
+.img-responsive {
+  width: 100%;
+  max-width: 250px;
+  max-width: 350px;
+  height: auto;
+}
+
+/* main container */
+.container-01 {
+  position: relative;
+}
+
+.overlay-01 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 1;
 }

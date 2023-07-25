@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bonuses from "./components/Bonuses";
+import Business from "./components/Business";
+import Coach from "./components/Coach";
+import Faq from "./components/Faq";
+import Founder from "./components/Founder";
+import RightFor from "./components/RightFor";
+import Seminar from "./components/Seminar";
+import Stars from "./components/Stars";
+import Training from "./components/Training";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="">
+
+        {/* 4-Hour Training */}
+        <Training />
+
+        {/* Business Breakthrough */}
+        <Business />
+
+        {/* FREE BONUSES */}
+        <Bonuses />
+
+        {/* Seminar */}
+        <Seminar />
+
+        {/* right for */}
+        <RightFor />
+
+        {/* Stars  */}
+        <Stars />
+
+        {/* Meet Your Coach */}
+        <Coach />
+
+        {/* Founder of */}
+        <Founder />
+        
+        {/* FAQ */}
+        <Faq />
+
+      </div>
+    </>
   );
 }
 
