@@ -46,7 +46,7 @@ function Coach() {
     },
     {
       id: "008",
-      num: "16",
+      num: "190+",
       image: "icon-1.png",
       desc: "Industries Worked With",
     },
