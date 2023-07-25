@@ -54,7 +54,7 @@ function Training() {
                 className="rounded-4 img-fluid"
                 width={"auto"}
                 height={"auto"}
-                style={{ minWidth: "550px" }}
+                style={{ minWidth: "500px" }}
               />
               <div className="overlay-01 d-flex w-75 flex-column justify-content-center align-items-center shadow bg-white border border-1 px-3 py-2 fs-5 text-black fw-medium text-center b1-radius">
                 <img

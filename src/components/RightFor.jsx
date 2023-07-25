@@ -37,7 +37,7 @@ function RightFor() {
     <>
       <div className="bg-black pb-5">
         <div className="container bg-black pt-2 pb-4">
-          <h4 className="txt-color2 heading2 pt-5 pb-4 ">
+          <h4 className="txt-color heading2 pt-5 pb-4 ">
             This Seminar is right for...
           </h4>
           <div className="row gap-3 justify-content-center">
@@ -50,7 +50,7 @@ function RightFor() {
                   >
                     <div className="d-flex flex-row justify-content-center p-4">
                       <img
-                        className="my-auto"
+                        className="my-auto bg-light"
                         src={require(`../Images/${m.img}`)}
                         alt="..."
                         width={100}

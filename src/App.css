@@ -73,12 +73,12 @@ body {
 
 .bg-seminar {
   background-color: black;
-  border: 4px solid #fe4789;
+  border: 2px solid #fe4789;
 }
 
 /* border-radius */
 .b1-radius {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
 }
 
 /* Image Responsive */

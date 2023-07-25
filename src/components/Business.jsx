@@ -44,7 +44,7 @@ function Business() {
                   <div className="row bg-dark rounded-4 m-2 p-1">
                     <div className=" col m-auto">
                       <img
-                        className="img-thumbnail float-start"
+                        className="img-thumbnail float-start bg-white"
                         src={require(`../Images/${m.image}`)}
                         alt=""
                       />
