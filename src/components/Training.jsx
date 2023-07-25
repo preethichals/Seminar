@@ -1,6 +1,8 @@
 import React from "react";
 import Ceo from "./Ceo";
 import groupstar from "../Images/Group-3-1-3.svg";
+import { BsLaptop, BsClockFill} from "react-icons/bs";
+import { FaLanguage } from "react-icons/fa"
 
 function Training() {
   return (
@@ -25,15 +27,18 @@ function Training() {
             </p>
             <div className="d-flex justify-content-around">
               <div className="d-flex flex-column mb-3 w-25">
+                <span><BsLaptop/></span>
                 <p className="fw-semibold">DURATION</p>
                 <p>4 Hours (with Q&A Session)</p>
               </div>
               <div className="d-flex flex-column mb-3 w-25">
+                <span><BsClockFill/></span>
                 <p className="fw-semibold">DATE & TIME</p>
                 <p>24th May</p>
                 <p>9 AM to 1 PM</p>
               </div>
               <div className="d-flex flex-column mb-3 w-25">
+                <span><FaLanguage/></span>
                 <p className="fw-semibold">LANGUAGE</p>
                 <p>English (you can ask doubts in Hindi)</p>
               </div>
